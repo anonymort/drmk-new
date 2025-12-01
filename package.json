@@ -1,0 +1,21 @@
+{
+  "name": "drmk-new",
+  "version": "1.0.0",
+  "description": "High-signal link feed for drmk.link",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": ["signals", "links", "medical", "policy"],
+  "author": "Matt Kneale",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/rss": "^4.0.14",
+    "@tailwindcss/postcss": "^4.1.17",
+    "astro": "^5.16.3",
+    "tailwindcss": "^4.1.17"
+  }
+}

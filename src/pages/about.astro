@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About | drmk.link"
+  description="About drmk.link and the Signals feed."
+>
+  <div class="mx-auto max-w-3xl px-4 py-8">
+    <header class="mb-8">
+      <h1 class="mb-2 text-3xl font-bold text-gray-900">About</h1>
+    </header>
+
+    <div class="prose prose-gray max-w-none">
+      <p>
+        <strong>drmk.link</strong> is a curated feed of high-signal links maintained by Matt Kneale.
+      </p>
+
+      <h2>What Signals Covers</h2>
+      <ul>
+        <li><strong>UK medical policy</strong> &ndash; NHS England, DHSC, Royal Colleges</li>
+        <li><strong>Regulation</strong> &ndash; GMC guidance, fitness to practise, revalidation</li>
+        <li><strong>BMA governance</strong> &ndash; policy updates, industrial action, contract negotiations</li>
+        <li><strong>FOI disclosures</strong> &ndash; primary documents from WhatDoTheyKnow and direct responses</li>
+        <li><strong>Competition law</strong> &ndash; CMA investigations, digital markets, healthcare sector</li>
+        <li><strong>Technology</strong> &ndash; AI tools, clinical software, research workflows</li>
+        <li><strong>Projects</strong> &ndash; Fyllio, SkillsForDocs, and related work</li>
+      </ul>
+
+      <h2>Selection Criteria</h2>
+      <p>
+        Signals prioritises primary sources over commentary. Items are included when they:
+      </p>
+      <ul>
+        <li>Change policy, process, regulation, law, or practice</li>
+        <li>Disclose new data or FOI responses</li>
+        <li>Have measurable operational consequences</li>
+        <li>Come from authoritative sources</li>
+      </ul>
+
+      <h2>Provenance</h2>
+      <p>Each signal is tagged with its source type:</p>
+      <ul>
+        <li><strong>Official</strong> &ndash; Government, NHS, GMC, BMA, Royal Colleges, regulators</li>
+        <li><strong>FOI</strong> &ndash; Freedom of Information disclosures</li>
+        <li><strong>Press</strong> &ndash; Established journalism on verifiable developments</li>
+        <li><strong>Research</strong> &ndash; Peer-reviewed papers and preprints</li>
+        <li><strong>Tech</strong> &ndash; Documentation for AI models, code libraries, standards</li>
+      </ul>
+
+      <h2>Feeds</h2>
+      <p>Subscribe via:</p>
+      <ul>
+        <li><a href="/feeds/signals.json">JSON Feed</a></li>
+        <li><a href="/rss.xml">RSS/Atom Feed</a></li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>
+        For questions or suggestions, reach out via the usual channels.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

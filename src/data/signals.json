@@ -1,0 +1,29 @@
+[
+  {
+    "id": "gmc-good-medical-practice-2024",
+    "title": "GMC publishes updated Good Medical Practice guidance",
+    "url": "https://www.gmc-uk.org/professional-standards/professional-standards-for-doctors/good-medical-practice",
+    "annotation": "Core ethical guidance for UK doctors updated with new expectations on remote consultations and AI-assisted decision making.",
+    "tags": ["medicine", "regulation", "gmc"],
+    "provenance": "official",
+    "date": "2024-01-29"
+  },
+  {
+    "id": "cma-digital-markets-act-guidance",
+    "title": "CMA publishes Digital Markets Competition Regime guidance",
+    "url": "https://www.gov.uk/government/publications/digital-markets-competition-regime-guidance",
+    "annotation": "Sets out how CMA will designate firms with Strategic Market Status and apply conduct requirements.",
+    "tags": ["competition", "law", "tech"],
+    "provenance": "official",
+    "date": "2024-12-17"
+  },
+  {
+    "id": "claude-4-opus-release",
+    "title": "Anthropic releases Claude Opus 4.5 model",
+    "url": "https://www.anthropic.com/news/claude-model-spec",
+    "annotation": "Latest frontier model with improved reasoning, agentic capabilities, and extended thinking.",
+    "tags": ["ai", "tech"],
+    "provenance": "tech-doc",
+    "date": "2025-02-24"
+  }
+]

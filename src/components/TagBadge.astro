@@ -1,0 +1,13 @@
+---
+import type { Tag } from '../content.config';
+
+interface Props {
+  tag: Tag;
+}
+
+const { tag } = Astro.props;
+---
+
+<span class="inline-flex items-center text-xs text-gray-500">
+  #{tag}
+</span>
