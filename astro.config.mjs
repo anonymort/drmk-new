@@ -1,15 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://drmk.link',
+  site: 'https://anonymort.github.io',
+  base: '/drmk-new',
   output: 'static',
-  vite: {
-    css: {
-      postcss: {
-        plugins: [
-          (await import('@tailwindcss/postcss')).default,
-        ],
-      },
-    },
-  },
 });
