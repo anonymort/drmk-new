@@ -3,6 +3,10 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SignalCard from '../components/SignalCard.astro';
 
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+
 const allSignals = await getCollection('signals');
 const sortedSignals = allSignals
   .map((entry) => entry.data)
@@ -31,7 +35,7 @@ const latestSignals = sortedSignals.slice(0, 10);
     {sortedSignals.length > 10 && (
       <div class="mt-6 text-center">
         <a
-          href="/signals"
+          href={`${base}signals/`}
           class="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800"
         >
           View all signals &rarr;
